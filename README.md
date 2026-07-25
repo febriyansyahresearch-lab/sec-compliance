@@ -1,9 +1,9 @@
 # Sec-Compliance — GRC Toolkit for Banking
 
-[![CI](https://github.com/febriyansyah/sec-compliance/actions/workflows/test.yml/badge.svg)](https://github.com/febriyansyah/sec-compliance/actions/workflows/test.yml)
+[![CI](https://github.com/febriyansyahresearch-lab/sec-compliance/actions/workflows/test.yml/badge.svg)](https://github.com/febriyansyahresearch-lab/sec-compliance/actions/workflows/test.yml)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![Tests](https://img.shields.io/badge/tests-22%20passing-brightgreen)](tests/)
+[![Tests](https://img.shields.io/badge/tests-48%20passing-brightgreen)](tests/)
 
 **Febriyansyah** — IT Cybersecurity & Infrastructure Leader (15+ yrs, Banking) | MTI Candidate
 
@@ -39,6 +39,27 @@ Banking institutions face complex regulatory requirements across multiple framew
 | Control Mapping | Cross-reference controls across frameworks |
 | Policy Templates | Structured document templates with standard clauses |
 | Audit Trail | Evidence collection and completeness tracking |
+
+## Quick Demo
+
+```bash
+pip install -r requirements.txt
+python -m pytest tests/ -q
+```
+
+Example output:
+
+```text
+48 passed
+```
+
+Typical workflow:
+
+| Step | Output |
+|---|---|
+| Define banking assets and threats | Inherent risk score and risk level |
+| Map controls across frameworks | NIST, ISO 27001, PCI DSS, COBIT, BI/POJK coverage |
+| Generate audit checklist | Evidence tracking and completeness report |
 
 ## References
 
